@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "niveo",
+  "description": "use niveo to save your save codes its simple and you dont even have to open a new tab to access them",
+  "version": "0.1",
+  "version_name": "0.1-beta-manifest3",
+  "background.service_worker": {
+    "page": "index.html"
+  },
+  "action": {
+    "default_icon": "icon.png",
+    "default_popup": "index.html",
+    "default_title": "niveo"
+  },
+  "icons": {
+    "16": "icon.png",
+    "32": "icon.png",
+    "1024": "icon.png"
+  }
+}
